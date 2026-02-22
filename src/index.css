@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  /* 🟢 AfroLeaks Red - Used for tabs and buttons */
+  --color-accent: #ff3b30;
+  --color-zinc-950: #09090b;
+}
+
+@layer base {
+  body {
+    /* 🟢 overscroll-behavior-y: none stops the "bounce" in Telegram WebApp */
+    @apply bg-black text-white antialiased selection:bg-red-500/30;
+    overscroll-behavior-y: none;
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Professional thin scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-1;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-zinc-800 rounded-full;
+  }
+}
+
+@layer components {
+  /* 🟢 Used for Navigation and Headers */
+  .glass-effect {
+    @apply bg-black/70 backdrop-blur-xl border-white/10;
+  }
+
+  /* 🟢 Added to every button for a premium feel */
+  .btn-tap {
+    @apply active:scale-95 transition-transform duration-200;
+  }
+
+  /* 🟢 Ensures thumbnails look like high-end cards */
+  .video-grid-container {
+    @apply p-2 grid grid-cols-2 gap-2;
+  }
+}
+
+/* Premium Shimmer for thumbnails while loading */
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer-move 1.5s infinite;
+}
+
+@keyframes shimmer-move {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* 🟢 Removes the gray box when clicking buttons on Android/iPhone */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 🟢 Added: Utility to hide scrollbars on the Category Nav */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
