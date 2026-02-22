@@ -59,7 +59,7 @@ export default function Home({ category, setCategory, viewMode, setViewMode, onV
         <AnimatePresence mode='popLayout'>
           {videoData
             .filter(v => v.category === category)
-            /* 🟢 Sorted by newest date first */
+            /* 🟢 Sorted by newest dateAdded first */
             .sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded))
             .map((video) => (
               <motion.div key={video.id} layout initial={{ opacity: 0 }} animate={{ opacity: 1 }}>

@@ -6,7 +6,7 @@ import Profile from "./pages/Profile";
 export default function App() {
   const [activeTab, setActiveTab] = useState("home");
   
-  /* 🟢 Update: Default category set to "Leaks" for your new app */
+  /* 🟢 State set to match your first new category */
   const [category, setCategory] = useState("Leaks"); 
   const [viewMode, setViewMode] = useState("category"); 
   const [selectedVideo, setSelectedVideo] = useState(null);
