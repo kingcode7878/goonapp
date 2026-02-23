@@ -39,10 +39,52 @@ export const videoData = [
     category: "TikTok",
     video_url: "https://cdn.aceimg.com/a57ccf658.mp4",
     thumbnail_url: "https://cdn.aceimg.com/9c95dc9c3.png",
-    views: "280",
+    views: "285",
     caption: "TikTok Baddie",
     dateAdded: "2026-05-20"
   },
+
+
+
+   {
+    id: 8,
+    category: "TikTok",
+    video_url: "https://cdn.aceimg.com/a57ccf658.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/9c95dc9c3.png",
+    views: "285",
+    caption: "TikTok Baddie",
+    dateAdded: "2026-05-21"
+  },
+
+
+
+
+   {
+    id: 9,
+    category: "TikTok",
+    video_url: "https://cdn.aceimg.com/29e9b72c4.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/d4f676b66.png",
+    views: "385",
+    caption: "💃",
+    dateAdded: "2026-05-20"
+  },
+
+
+
+
+   {
+    id: 10,
+    category: "TikTok",
+    video_url: "https://cdn.aceimg.com/29e9b72c4.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/d4f676b66.png",
+    views: "385",
+    caption: "💃",
+    dateAdded: "2026-05-20"
+  },
+
+
+
+
 
 
 
@@ -59,15 +101,39 @@ export const videoData = [
     caption: "New dance challenge gone viral 💃",
     dateAdded: "2024-05-21"
   },
+
+
+
+
   {
     id: 3,
     category: "Baddies",
-    video_url: "https://cdn.aceimg.com/3276040af.mp4",
-    thumbnail_url: "https://picsum.photos/seed/baddies1/400/700",
-    views: "2.1M",
-    caption: "Friday night VIP vibes ✨",
+    video_url: "https://cdn.aceimg.com/04f262ef0.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/25d78ac45.png",
+    views: "1.15K",
+    caption: "✨",
     dateAdded: "2024-05-18"
   },
+
+
+
+  {
+    id: 11,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/2c56cc3ab.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/16d3c45dc.png",
+    views: "1.25K",
+    caption: "✨",
+    dateAdded: "2024-05-19"
+  },
+
+
+
+
+
+
+
+
   {
     id: 4,
     category: "Goon",
