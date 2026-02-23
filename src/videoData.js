@@ -49,9 +49,9 @@ export const videoData = [
    {
     id: 8,
     category: "TikTok",
-    video_url: "https://cdn.aceimg.com/a57ccf658.mp4",
-    thumbnail_url: "https://cdn.aceimg.com/9c95dc9c3.png",
-    views: "285",
+    video_url: "https://cdn.aceimg.com/29b3d02e5.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/1046d6d88.png",
+    views: "445",
     caption: "TikTok Baddie",
     dateAdded: "2026-05-21"
   },
@@ -74,10 +74,10 @@ export const videoData = [
 
    {
     id: 10,
-    category: "TikTok",
-    video_url: "https://cdn.aceimg.com/29e9b72c4.mp4",
-    thumbnail_url: "https://cdn.aceimg.com/d4f676b66.png",
-    views: "385",
+    category: "Goon",
+    video_url: "https://cdn.aceimg.com/a60b0b603.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/9d8b91fa1.png",
+    views: "777",
     caption: "💃",
     dateAdded: "2026-05-20"
   },
