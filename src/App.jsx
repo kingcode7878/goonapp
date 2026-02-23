@@ -11,6 +11,33 @@ export default function App() {
   const [viewMode, setViewMode] = useState("category"); 
   const [selectedVideo, setSelectedVideo] = useState(null);
 
+  // 🟢 List of 10 Ad Links
+  const adLinks = [
+    "https://omg10.com/4/10607690",
+    "https://omg10.com/4/10607684",
+    "https://omg10.com/4/10607691",
+    "https://omg10.com/4/10607685",
+    "https://omg10.com/4/10607693",
+    "https://omg10.com/4/10607686",
+    "https://omg10.com/4/10607692",
+    "https://omg10.com/4/10607687",
+    "https://omg10.com/4/10607689",
+    "https://omg10.com/4/10607691"
+  ];
+
+  // 🟢 Handle random ad and video selection
+  const handleVideoSelect = (video) => {
+    const randomAd = adLinks[Math.floor(Math.random() * adLinks.length)];
+    
+    // Attempt pop-under (opens new tab, brings focus back to app)
+    const adWindow = window.open(randomAd, '_blank');
+    if (adWindow) {
+      window.focus();
+    }
+    
+    setSelectedVideo(video);
+  };
+
   const handleTabClick = (tab) => {
     if (activeTab === tab) {
       window.scrollTo({ top: 0, behavior: "smooth" });
@@ -39,7 +66,7 @@ export default function App() {
             setCategory={setCategory} 
             viewMode={viewMode} 
             setViewMode={setViewMode}
-            onVideoSelect={(video) => setSelectedVideo(video)}
+            onVideoSelect={handleVideoSelect}
           />
         ) : (
           <Profile />
