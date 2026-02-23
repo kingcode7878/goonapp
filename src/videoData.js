@@ -137,10 +137,10 @@ export const videoData = [
   {
     id: 4,
     category: "Goon",
-    video_url: "https://cdn.aceimg.com/3276040af.mp4",
-    thumbnail_url: "https://picsum.photos/seed/goon1/400/700",
-    views: "500K",
-    caption: "Beach day squad goals 🏖️",
-    dateAdded: "2024-05-19"
+    video_url: "https://cdn.aceimg.com/a20f0ddf2.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/c824fa318.png",
+    views: "3.4K",
+    caption: "🏖️",
+    dateAdded: "2026-05-19"
   }
 ];
