@@ -1,15 +1,12 @@
-@import "tailwindcss";
-
-@theme {
-  /* 🟢 AfroLeaks Red - Used for tabs and buttons */
-  --color-accent: #ff3b30;
-  --color-zinc-950: #09090b;
-}
+/* 🟢 Changed for v3 compatibility */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   body {
-    /* 🟢 overscroll-behavior-y: none stops the "bounce" in Telegram WebApp */
-    @apply bg-black text-white antialiased selection:bg-red-500/30;
+    /* We use the hex code directly here because @theme doesn't exist in v3 */
+    @apply bg-black text-white antialiased;
     overscroll-behavior-y: none;
     -webkit-overflow-scrolling: touch;
     margin: 0;
@@ -45,7 +42,7 @@
   }
 }
 
-/* Premium Shimmer for thumbnails while loading */
+/* Premium Shimmer for thumbnails */
 .shimmer {
   background: linear-gradient(
     90deg,
@@ -62,12 +59,10 @@
   100% { background-position: 200% 0; }
 }
 
-/* 🟢 Removes the gray box when clicking buttons on Android/iPhone */
 * {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* 🟢 Added: Utility to hide scrollbars on the Category Nav */
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
