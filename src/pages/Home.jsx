@@ -15,7 +15,7 @@ export default function Home({ category, setCategory, viewMode, setViewMode, onV
   return (
     <div className="relative z-0">
       <header className="p-4 flex justify-between items-center border-b border-zinc-800 sticky top-0 bg-black/80 backdrop-blur-md z-[60]">
-        <h1 className="text-accent font-black tracking-tighter text-xl italic uppercase">Xclusive Premium</h1>
+        <h1 className="text-accent font-black tracking-tighter text-xl italic uppercase">Hot Leaks Update</h1>
         <div className="flex bg-zinc-900 rounded-lg p-1 relative z-[70]">
           <button 
             onClick={() => setViewMode('dashboard')} 

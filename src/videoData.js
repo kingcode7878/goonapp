@@ -2,12 +2,54 @@ export const videoData = [
   {
     id: 1,
     category: "Leaks",
-    video_url: "https://cdn.aceimg.com/3276040af.mp4",
-    thumbnail_url: "https://picsum.photos/seed/leaks1/400/700",
-    views: "1.2M",
-    caption: "Exclusive Leak: Behind the scenes 🤫",
-    dateAdded: "2024-05-20"
+    video_url: "https://cdn.aceimg.com/a9d72b48a.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/68dfc3285.png",
+    views: "200",
+    caption: "Naughty Chick Leaked",
+    dateAdded: "2026-05-20"
   },
+
+
+ {
+    id: 5,
+    category: "TikTok",
+    video_url: "https://cdn.aceimg.com/9e6f272c2.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/746cfa0aa.png",
+    views: "250",
+    caption: "TikTok Baddie",
+    dateAdded: "2026-05-20"
+  },
+
+
+
+   {
+    id: 6,
+    category: "TikTok",
+    video_url: "https://cdn.aceimg.com/64d1f64f4.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/67a4064a5.png",
+    views: "280",
+    caption: "TikTok Baddie",
+    dateAdded: "2026-05-20"
+  },
+
+
+
+ {
+    id: 7,
+    category: "TikTok",
+    video_url: "https://cdn.aceimg.com/a57ccf658.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/9c95dc9c3.png",
+    views: "280",
+    caption: "TikTok Baddie",
+    dateAdded: "2026-05-20"
+  },
+
+
+
+
+
+
+
   {
     id: 2,
     category: "TikTok",
