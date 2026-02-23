@@ -190,6 +190,72 @@ export const videoData = [
 
 
 
+  {
+    id: 21,
+    category: "Leaks",
+    video_url: "https://cdn.aceimg.com/63a258cca.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/e6304fbe1.png",
+    views: "2850",
+    caption: "💃",
+    dateAdded: "2026-02-28"
+  },
+
+
+
+
+    {
+    id: 22,
+    category: "Leaks",
+    video_url: "https://cdn.aceimg.com/a44bdf711.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/d0438190e.png",
+    views: "3850",
+    caption: "💃",
+    dateAdded: "2026-03-28"
+  },
+
+
+
+   {
+    id: 23,
+    category: "Leaks",
+    video_url: "https://cdn.aceimg.com/b499cdbaf.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/dd108dfdb.png",
+    views: "3850",
+    caption: "💃",
+    dateAdded: "2026-03-29"
+  },
+
+
+    {
+    id: 24,
+    category: "Leaks",
+    video_url: "https://cdn.aceimg.com/5fcd54d27.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/dd883c64b.png",
+    views: "9850",
+    caption: "💃",
+    dateAdded: "2026-03-29"
+  },
+
+
+ 
+
+    {
+    id: 25,
+    category: "Leaks",
+    video_url: "https://cdn.aceimg.com/5b7eda478.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/5ea2713ea.png",
+    views: "850",
+    caption: "💃",
+    dateAdded: "2026-03-29"
+  },
+
+
+   
+
+
+
+
+
 
 
 
@@ -219,12 +285,12 @@ export const videoData = [
 
   {
     id: 2,
-    category: "TikTok",
-    video_url: "https://cdn.aceimg.com/3276040af.mp4",
-    thumbnail_url: "https://picsum.photos/seed/tiktok1/400/700",
-    views: "850K",
-    caption: "New dance challenge gone viral 💃",
-    dateAdded: "2024-05-21"
+    category: "Leaks",
+    video_url: "https://cdn.aceimg.com/4c3e53f47.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/7b0a02e75.png",
+    views: "5.5k",
+    caption: "💃",
+    dateAdded: "2026-05-28"
   },
 
 
