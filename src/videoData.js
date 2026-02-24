@@ -339,6 +339,33 @@ export const videoData = [
 
 
 
+  {
+    id: 33,
+    category: "TikTok",
+    video_url: "https://cdn.aceimg.com/b6e0300e9.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/8b96dbdbf.png",
+    views: "422",
+    caption: "💃",
+    dateAdded: "2026-02-26"
+  },
+
+
+
+
+ {
+    id: 34,
+    category: "TikTok",
+    video_url: "https://cdn.aceimg.com/7056f2b4a.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/d17e5ec2b.png",
+    views: "412",
+    caption: "💃",
+    dateAdded: "2026-02-26"
+  },
+
+
+ 
+
+
 
 
 
