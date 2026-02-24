@@ -365,6 +365,61 @@ export const videoData = [
 
  
 
+  {
+    id: 35,
+    category: "TikTok",
+    video_url: "https://cdn.aceimg.com/5a3093935.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/7784318d4.png",
+    views: "400",
+    caption: "💃",
+    dateAdded: "2026-02-26"
+  },
+
+
+ {
+    id: 36,
+    category: "TikTok",
+    video_url: "https://cdn.aceimg.com/32d5912d5.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/be68764f2.png",
+    views: "430",
+    caption: "💃",
+    dateAdded: "2026-02-27"
+  },
+
+
+
+  {
+    id: 37,
+    category: "TikTok",
+    video_url: "https://cdn.aceimg.com/725de9553.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/c51cc0770.png",
+    views: "467",
+    caption: "💃",
+    dateAdded: "2026-02-27"
+  },
+
+
+
+
+ {
+    id: 38,
+    category: "Goon",
+    video_url: "https://cdn.aceimg.com/ffbf72a12.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/82a596c49.png",
+    views: "467",
+    caption: "💃",
+    dateAdded: "2026-02-27"
+  },
+
+
+
+  
+
+
+  
+
+ 
+ 
 
 
 
