@@ -197,7 +197,7 @@ export const videoData = [
     thumbnail_url: "https://cdn.aceimg.com/e6304fbe1.png",
     views: "2850",
     caption: "💃",
-    dateAdded: "2026-02-28"
+    dateAdded: "2026-02-23"
   },
 
 
@@ -210,7 +210,7 @@ export const videoData = [
     thumbnail_url: "https://cdn.aceimg.com/d0438190e.png",
     views: "3850",
     caption: "💃",
-    dateAdded: "2026-02-28"
+    dateAdded: "2026-02-22"
   },
 
 
