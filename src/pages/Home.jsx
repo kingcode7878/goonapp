@@ -22,7 +22,7 @@ export default function Home({ category, setCategory, viewMode, setViewMode, onV
             className={`p-1.5 rounded-md cursor-pointer transition-colors ${viewMode === 'dashboard' ? 'bg-zinc-700 text-white' : 'text-zinc-500'}`}
           >
             <LayoutGrid size={18} />
-          </button>8
+          </button>
           <button 
             onClick={() => setViewMode('category')} 
             className={`p-1.5 rounded-md cursor-pointer transition-colors ${viewMode === 'category' ? 'bg-zinc-700 text-white' : 'text-zinc-500'}`}
