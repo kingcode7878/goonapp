@@ -886,6 +886,73 @@ export const videoData = [
   },
  
  
+  {
+    id: 76,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/85bae111d.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/736d50889.png",
+    views: "1288",
+    caption: "💃",
+    dateAdded: "2026-03-06"
+  },
+
+
+
+
+   {
+    id: 77,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/bead65f81.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/2de899be7.png",
+    views: "288",
+    caption: "💃",
+    dateAdded: "2026-03-06"
+  },
+ 
+ 
+
+
+  
+   {
+    id: 78,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/f86f89725.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/76ae3fbb3.png",
+    views: "8988",
+    caption: "💃",
+    dateAdded: "2026-03-06"
+  },
+ 
+ 
+ 
+  {
+    id: 79,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/d32dbf134.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/3a55f8f78.png",
+    views: "188",
+    caption: "💃",
+    dateAdded: "2026-03-06"
+  },
+ 
+
+
+
+   {
+    id: 80,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/d32dbf134.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/3a55f8f78.png",
+    views: "188",
+    caption: "💃",
+    dateAdded: "2026-03-06"
+  },
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
