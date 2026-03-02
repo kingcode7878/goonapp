@@ -812,9 +812,9 @@ export const videoData = [
     {
     id: 70,
     category: "Baddies",
-    video_url: "https://cdn.aceimg.com/8bbe50699.mp4",
-    thumbnail_url: "https://cdn.aceimg.com/251b14cde.png",
-    views: "998",
+    video_url: "https://cdn.aceimg.com/9d7ae9480.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/af0f8ba05.png",
+    views: "9888",
     caption: "💃",
     dateAdded: "2026-03-05"
   },
