@@ -4,7 +4,7 @@ export const videoData = [
     category: "Leaks",
     video_url: "https://cdn.aceimg.com/a9d72b48a.mp4",
     thumbnail_url: "https://cdn.aceimg.com/68dfc3285.png",
-    views: "200",
+    views: "240",
     caption: "Naughty Chick Leaked",
     dateAdded: "2026-01-01"
   },
@@ -15,7 +15,7 @@ export const videoData = [
     category: "TikTok",
     video_url: "https://cdn.aceimg.com/9e6f272c2.mp4",
     thumbnail_url: "https://cdn.aceimg.com/746cfa0aa.png",
-    views: "250",
+    views: "2560",
     caption: "TikTok Baddie",
     dateAdded: "2026-01-02"
   },
@@ -742,10 +742,84 @@ export const videoData = [
    
 
 
+  {
+    id: 65,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/0cef9b319.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/946819b6c.png",
+    views: "7698",
+    caption: "💃",
+    dateAdded: "2026-03-05"
+  },
+ 
 
 
+  
+  {
+    id: 66,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/1cf0c5684.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/2c1ac0e64.png",
+    views: "7998",
+    caption: "💃",
+    dateAdded: "2026-03-05"
+  },
+ 
+ 
+ 
+
+    {
+    id: 67,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/2c8e09cb7.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/acda6293d.png",
+    views: "7998",
+    caption: "💃",
+    dateAdded: "2026-03-05"
+  },
+ 
+ 
 
 
+  
+    {
+    id: 68,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/366ea6097.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/c270db09a.png",
+    views: "998",
+    caption: "💃",
+    dateAdded: "2026-03-05"
+  },
+ 
+ 
+
+
+ 
+    {
+    id: 69,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/8bbe50699.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/251b14cde.png",
+    views: "998",
+    caption: "💃",
+    dateAdded: "2026-03-05"
+  },
+ 
+ 
+
+
+    {
+    id: 70,
+    category: "Baddies",
+    video_url: "https://cdn.aceimg.com/8bbe50699.mp4",
+    thumbnail_url: "https://cdn.aceimg.com/251b14cde.png",
+    views: "998",
+    caption: "💃",
+    dateAdded: "2026-03-05"
+  },
+ 
+ 
 
 
 
